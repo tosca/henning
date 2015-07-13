@@ -10,8 +10,25 @@ namespace henning.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var result = new FilePathResult("~/grand-legacy.html", "text/html");
+            return result;
         }
+
+
+
+        public ActionResult grand()
+        {
+            var result = new FilePathResult("~/grand-legacy.html", "text/html");
+            return result;
+        }
+
+        public ActionResult stone()
+        {
+            var result = new FilePathResult("~/stone.html", "text/html");
+            return result;
+        }
+
+
 
         public ActionResult About()
         {
