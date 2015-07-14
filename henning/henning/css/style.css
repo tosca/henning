@@ -135,7 +135,7 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.7;
-  margin: 0 0 22px;
+  margin: 0 0 18px;
   font-family:Oswald,sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
@@ -3000,109 +3000,6 @@ div.count-number:before{
 }
 
 
-/******************************************************************************
-  Twiiter Feed
-*******************************************************************************/
-
-.twitter-feed {
-	text-align:center;
-	padding-bottom:15px;
-}
-.tweet {
-	padding:12px 0px 0px;
-}
-.twitter-feed .owl-pagination,
-.twitter-feed .owl-buttons,
-.twitter-feed .icon-twitter,
-.twitter-feed .username {
-	display:none;
-}
-.twitter-feed .tweet_text{
-	color:#FFFFFF;
-	font-size:20px;
-}
-.twitter-feed .tweet_time a{
-	font-style: italic;
-	font-size:17px;
-}
-.twitter-feed .tweet_user a,
-.tweet_text a{
-	text-decoration:underline;
-}
-.twitter-feed .tweet_user a,
-.tweet_text a,
-.twitter-feed .tweet_text{
-		color: #FFFFFF;
-}
-.twitter-feed i{
-	padding:15px;
-}
-
-/******************************************************************************
-  Blog
-*******************************************************************************/
-
-/* Latest News */
-.latest-posts{
-	margin:0px;
-	padding:0;
-}
-.latest-posts li {
-	list-style:none;
-	clear:both;
-	margin-bottom:35px;
-}
-.latest-posts li:last-child{
-	margin-bottom:10px;
-}
-.latest-posts .post-thumb{
-	width:100px;
-}
-.latest-posts .post-thumb{
-	float:left;
-}
-
-.latest-posts li img{
-	margin-right:10px;
-}
-
-.pagination > li > a, 
-.pagination > li > span{
-	color:#171717;
-}
-/* Posts */
-
-.entry-title,
-.post-title {
-    font-size: 26px;
-    font-weight: normal;
-    margin: 0 0 17px;
-}
-.post-item{
-	padding-bottom:30px;
-	margin-bottom:30px;
-	border-bottom:1px dashed #cccccc;
-}
-.post-title{
-	margin-top:25px;
-}
-.post-content{
-	margin-bottom:15px;
-}
-.post-list .post-item{
-	padding-bottom:40px;
-}
-.post-list .post-image.pull-left{
-	margin-right:20px;
-}
-.mixed-grid.blog .grid-item{
-	padding:15px 15px 0 15px!important;
-	margin-bottom:15px!important;
-}
-.mixed-grid.blog .grid-item .post-meta{
-	padding-bottom:25px !important;
-	border-bottom:1px dashed #cccccc;
-}
 /* Video Post */
 .video-box {
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);

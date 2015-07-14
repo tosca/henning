@@ -201,6 +201,8 @@
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
+    <Content Include="img\sections\slider\280x440-01.jpg" />
+    <Content Include="img\sections\slider\280x440-02.jpg" />
     <Content Include="img\sections\slider\GL-drawslide-01.png" />
     <Content Include="img\sections\slider\GL-drawslide-02.png" />
     <Content Include="img\sections\slider\GL-drawslide-03.png" />
@@ -289,6 +291,7 @@
     <Content Include="img\sections\slider\hosting-slide2.jpg" />
     <Content Include="img\sections\slider\hosting-slide3.jpg" />
     <Content Include="img\sections\slider\model.png" />
+    <Content Include="img\sections\slider\Regional-Map.jpg" />
     <Content Include="img\sections\slider\rs-1.jpg" />
     <Content Include="img\sections\slider\rs-slider1-bg.jpg" />
     <Content Include="img\sections\slider\rs-slider1-bootstrap.png" />
