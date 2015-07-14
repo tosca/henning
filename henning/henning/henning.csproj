@@ -199,6 +199,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="grand-legacy.html" />
     <Content Include="img\path.png" />
+    <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
     <Content Include="img\sections\slider\GL-drawslide-01.png" />
     <Content Include="img\sections\slider\GL-drawslide-02.png" />
@@ -347,9 +348,6 @@
     <Content Include="js\revolution\jquery.zozothemes.revolution.min.js" />
     <Content Include="js\smoothscroll.js" />
     <Content Include="js\socialstream.jquery.js" />
-    <Content Include="js\tweet\carousel.js" />
-    <Content Include="js\tweet\scripts.js" />
-    <Content Include="js\tweet\tweetie.min.js" />
     <Content Include="js\typed.js" />
     <Content Include="js\video.js" />
     <Content Include="rs-plugin\assets\arrowleft.png" />
