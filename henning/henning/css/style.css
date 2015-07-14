@@ -280,7 +280,8 @@ a:focus{
 
 /* Title */
 .title{
-	font-family:Oswald,sans-serif;
+	font-family:'Open Sans',sans-serif;
+
 }
 .section-title {
   border-bottom-width: 0px;
@@ -320,9 +321,7 @@ a:focus{
   position: absolute;
   width: 40px;
 }
-.section-title h2{
-	font-size:28px;
-}
+
 .section-title.text-left h2{
 	text-align:left;
 }
