@@ -131,7 +131,6 @@ textarea {
   font-family: 'Arimo', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
-/* Heading */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.7;
@@ -281,7 +280,6 @@ a:focus{
 /* Title */
 .title{
 	font-family:'Open Sans',sans-serif;
-
 }
 .section-title {
   border-bottom-width: 0px;
@@ -301,7 +299,7 @@ a:focus{
 	text-transform:uppercase;
 	text-align:center;
 	font-size: 35px;	
-    font-weight: normal;
+    font-weight: 600;
     margin: 0 0 12px;
     padding: 14px 0;
 }

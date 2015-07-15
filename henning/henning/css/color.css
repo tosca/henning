@@ -1,8 +1,13 @@
-/* ============================
+/*COLOR*/
+.section-title h2
+{
+	color: #ad1f92; /*purple*/
+}
+#intro h4
+{
+	color: #76acfc; /*blue*/
+}
 
-	        COLOR 
-
-=============================== */
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
@@ -39,19 +44,9 @@
 .side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighteds
 {
-	color: #76acfc;
+	color: #76acfc; /*blue*/
 }
-
-
-
-
-
-/* ============================
-
-
-	       BACKGROUND COLOR 
-
-=============================== */
+/*BACKGROUND COLOR*/	        
 .top-bar-section.top-bar-bg-color,
 .product-count,
 .nav > li > a:focus, .nav > li > a:hover,
@@ -98,17 +93,10 @@ div.count-number:before,
 .hotel-tab .nav-tabs > li.active > a:hover,
 .navbar-default .navbar-toggle .icon-bar
 {
-	background-color: #ad1f92;
+	background-color: #ad1f92; /*purple*/
 }
 
-
-
-/* ============================
-
-	       BORDER COLOR 
-
-=============================== */
-
+/* BORDER COLOR */
 .dropdown-menu,
 .desc-border,
 .border-color,
@@ -120,7 +108,6 @@ div.count-number:before,
 {
 	border-color: #ffc400;
 }
-
 .bottom-arrow:before{
 	border-top-color: #ffc400;
 }
@@ -147,9 +134,9 @@ div.count-number:before,
 }	
 
 
-/******************************************************************************
+/********************************************
   Max Width "767px"
-*******************************************************************************/
+*******************************************/
 @media (max-width: 767px) { 
 	.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
 	.blog.timeliner >li:hover  .timeline-panel:before{
@@ -157,28 +144,21 @@ div.count-number:before,
 		border-left-color: #ffffff;
 	}
 }
-
-
 /* Transparent Color */
-
 .btn-default:hover,
 .color-switch .owl-controls .owl-page span,
 .tags li a{
  background-color: rgba(255,196,0,.8);
 }
 
-
-
 /* Content Select In Browser */
-
 ::-moz-selection {
-    background: #ffc400;
+    background: #ad1f92;
     color: #000000;
     text-shadow: none;
 }
-
 ::selection {
-    background: #ffc400;
+    background: #ad1f92;
     color: #a4003a;
     text-shadow: none;
 }
