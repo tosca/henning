@@ -60,13 +60,6 @@
 	- Counter	
 	- Pie Chart
 	- Item-box
-	- Twiiter Feed
-	- Blog
-		- Latest News
-		- Posts
-		- Video Post
-		- Meta
-		- Reply
 	- Testimonials	
 	- Get a Quote
 	- Page Title Variations
@@ -76,9 +69,7 @@
 	- Sitemap
 4. SIDEBAR	
 	- Tags	
-	- Social Feed Widget
 	- Shop Widgets
-	- Poll
 	- Price Range Filter
 	- Widget
 	- Newsletter
@@ -951,7 +942,8 @@ i.fa-1x{
 	border-width:1px;
 }
 .border2-color{
-	border-width:2px;
+	border-width:3px;
+    border-radius: 4px;
 }
 .border-white{
 	border:1px solid #ffffff;
@@ -2595,6 +2587,9 @@ tp-transparent img{
 	color:#171717;
 }
 .work-section .nav-pills{
+	text-align:center;
+}
+#support .nav-pills{
 	text-align:center;
 }
 .work-section .portfolio-grid .grid{

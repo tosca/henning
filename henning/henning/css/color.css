@@ -26,7 +26,6 @@
 .meta i,
 .quote blockquote:before,
 .quote blockquote:after,
-.tweet_time a,
 #video-controls a,
 .link-hover-color a:hover,
 .icons-hover-color i:hover,
@@ -42,7 +41,8 @@
 .travel-block i,
 .side-navbar .top-contact.link-hover-black > a:hover,
 .side-navbar .top-social-icon > a:hover i,
-header .nav .open > a.highlighteds
+header .nav .open > a.highlighteds,
+.tab-pane h5
 {
 	color: #76acfc; /*blue*/
 }
