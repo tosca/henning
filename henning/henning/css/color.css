@@ -42,7 +42,8 @@
 .side-navbar .top-contact.link-hover-black > a:hover,
 .side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighteds,
-.tab-pane h5
+.tab-pane h5,
+#contact-us h5
 {
 	color: #76acfc; /*blue*/
 }

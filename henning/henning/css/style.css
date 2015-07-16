@@ -2513,51 +2513,8 @@ tp-transparent img{
     text-transform: capitalize;
 }
 
-/* Progress */
-.progress {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-  height: 12px;
-}
 .about-us  h6{
   margin-bottom:10px;
-}
-.progress-bar {
-  font-size: 14px;
-  background: #1e1e1e;
-  filter: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  line-height: 40px;
-  text-align: left;
-  text-indent: 10px;
-  text-shadow: none;
-  -webkit-transition: background 0.2s linear;
-  transition: background 0.2s linear;
-}
-.progress-label{
-	color: #171717;
-    font-weight: 300;
-    position: absolute;
-    right: -1px;
-    top: -38px;
-}
-.white .progress-label{
-	color:#ffffff;
-}
-.white .progress{
-	background-color:#f7f7f7;
-}
-.progress-bar{
-	text-align:right;
-	position:absolute;
-	height:12px;
-}
-.progress{
-	background-color:#333333;
-	margin-bottom:10px;
 }
 
 /******************************************************************************
@@ -3459,7 +3416,6 @@ div.count-number:before{
 	margin:0 5px;
 }
 /* Google Map */
-
 .map-canvas * {
     border: 0 none;
 }
@@ -3468,6 +3424,9 @@ div.count-number:before{
 }
 .map-data h6{
 	margin-bottom:5px;
+}
+.map-content {
+    font-weight: 500;
 }
 
 /* Contact Form */
@@ -3566,199 +3525,10 @@ ul.tags li{
 .tags li a:hover{
 	opacity:.5;
 }
-/* Social Feed Widget */
 
-.social-feed.loaded {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-}
-.social-feed {
-    display: table;
-    margin: 0 auto;
-}
-.social-feed li {
-    float: left;
-    height: 62px;
-    list-style: outside none none;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    width: 60px;
-}
-.social-feed li img {
-    height: 62px;
-    width: 62px;
-}
-/* Shop Widgets */
-
-.widget .price{
-	font-size:18px;
-}
-.widget .shop h5{
-	font-size:16px;
-	font-weight:500;
-	margin-bottom:10px;
-}
-.widget .price {
-	padding-bottom:10px;
-}
-.widget .price del{
-	margin-right:10px;
-	font-size:14px;
-}
-
-/* Poll */
-
-.new-radio {
-    border-radius: 7px;
-    height: 14px;
-    width: 14px;
-}
-.new-radio, .new-checkbox {
-    background: none repeat scroll 0 0 #fff;
-    cursor: pointer;
-    float: left;
-    margin:0px 0 0 -20px;
-    position: absolute;
-}
-
-/* Price Range Filter */
-.filter .filter-price-box{
-	padding-bottom:15px;
-}
-.nstSlider {
-    background: none #CCCCCC;
-    cursor: pointer;
-    height: 2px;
-    position: relative;
-    width: 260px;
-	max-width:100%;
-	margin: 25px auto 40px;
-}
-.bar{
-	height:3px;
-	cursor:pointer;
-	position:absolute;
-}
-.nstSlider .rightGrip, .nstSlider .leftGrip {
-    position: absolute;
-	top:5px;
-	margin-left: -2px;	
-    border-width: 0px 5px 0;
-}
-.range .leftLabel {
-    left: 0px;
-    top: 12px;
-	font-size:12px;
-	font-family:'Lato';
-	position:absolute;
-}
-.range .rightLabel {
-	font-family:'Lato';
-    top: 12px;
-	left:0px;
-	font-size:12px;
-	position:absolute;
-}
-.bar:after{
-	height:8px;
-	width:1px;
-	position:absolute;
-	right:-1px;
-	top:-3px;
-	content:"";
-	cursor:pointer;
-}
-.bar:before{
-	height:8px;
-	width:1px;
-	position:absolute;
-	left:0px;
-	top:-3px;
-	content:"";
-	cursor:pointer;
-}
-.nstSlider:after{
-	height:8px;
-	width:1px;
-	background:#bebebe;
-	position:absolute;
-	right:-1px;
-	top:-3px;
-	content:"";
-	cursor:pointer;
-}
-.nstSlider:before{
-	height:8px;
-	width:1px;
-	background:#bebebe;
-	position:absolute;
-	left:0px;
-	top:-3px;
-	content:"";
-	cursor:pointer;
-}
-.rightGrip{
-	height:15px;
-	width:2px;
-	position:absolute;
-	right:0;
-	top:8px;
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-bottom: 10px solid;
-}
-.leftGrip{
-	height:15px;
-	width:2px;
-	position:absolute;
-	left:0;
-	top:8px;
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-bottom: 10px solid;
-}
-.filter-print-price{
-	padding:7px 0px 0px;
-	margin:0px 17px;
-}
-.filter-print-price a h4{
-	padding:5px 31px;
-	color:#FFFFFF;
-	text-align:center;
-	font-family:'Lato';
-	font-size:14px;
-	margin:0;
-	width:95px;
-	border:1px solid;
-	text-transform:capitalize;
-}
-.filter-print-price a h4:hover{
-	background-color:#FFFFFF;
-	border:1px solid;
-}
-.filter-print-price .price{
-	font-family:'Lato';
-	color:#656565;
-	font-weight:600;
-	font-size:14px;
-	margin-left:6px;
-	text-align:center;
-}
-.drag{
-	font-family:'Lato';
-	color:#656565;
-	font-size:12px;
-	font-weight:600;
-	margin:12px 0 0 -9px;
-	display:block;
-}
-.filter-print-price li{
-	display:inline-block;
-	list-style:none;
-}
-
-/******************************************************************************
+/************************************
   Widget
-*******************************************************************************/
+********************************/
 
 .widget ul{
 	padding:0px;
@@ -3804,42 +3574,6 @@ ul.tags li{
   border-bottom: 1px solid #e1e1e1;
   margin: 0 0 16px;  
   position: relative;
-}
-/* Newsletter */
-.newsletter form {
-  margin: 5px 0 0;
-  position: relative;
-}
-.newsletter input {
-  margin: 0;
-  padding-right: 43px;  
-}
-.newsletter .submit {
-  color: #ffffff;
-  height: 38px;
-  outline: none;
-  padding: 0;
-  position: absolute;
-  right: 1px;
-  top: 1px;
-  width: 38px;
-  border-radius:0 3px 3px 0;
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  border:0;
-}
-.newsletter .selectBox,
-.newsletter .form-control {
-  height: 40px;
-  line-height: 22px;
-  margin-bottom: 22px;    
-  padding: 8px 12px;
-}
-.newsletter .submit.bg-color:hover{
-	background-color: #333333;
-}
-.newsletter .has-feedback .form-control-feedback {
-    right: 35px;
 }
 /******************************************************************************
   PAGES
@@ -4524,11 +4258,6 @@ ul.tags li{
 #get-quote-1{
 	float:left;
 	width:100%;
-}
-
-/*----------Wedding-----------*/
-.red, .icon.red {
-    color: #ff0000;
 }
 
 /*Real Estate*/
@@ -5595,14 +5324,9 @@ ul.tags li{
 /*************
     tosca edits
 *****************/
-.vision-transparent{
-	border-left: medium none;
-    border-radius: 0;
-    border-right: medium none;
-    border-top: medium none;
-    box-shadow: none;
-	background:transparent;
-	color:#ffffff;
+.nav-pills li a {
+    font-weight:600;
+    text-transform:uppercase;
 }
 /******************************************************************************
   Bootstrap Elements
