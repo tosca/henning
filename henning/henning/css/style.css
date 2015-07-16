@@ -549,7 +549,7 @@ i.pull-left{
 }
 i.pull-left{
 	margin-right: 0.3em;
-	margin-top:.0.2em;
+	margin-top: 0.2em;
 }
 .icon-2 span{
 	width:20px;
@@ -1007,6 +1007,7 @@ i.fa-1x{
 }
 .panel-group .active.panel .panel-heading > .panel-title {
     border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #7f7f7f;
 }
 .panel-group .panel .panel-heading {
     background-color: inherit;
@@ -1015,6 +1016,7 @@ i.fa-1x{
 }
 .panel-default > .panel-heading {
     color: #1e1e1e;
+    color: #0c8fbf;
 }
 .panel-group .panel {
     background-color: inherit;
@@ -3575,123 +3577,10 @@ ul.tags li{
   margin: 0 0 16px;  
   position: relative;
 }
-/******************************************************************************
-  PAGES
-*******************************************************************************/	
-	
-/*Service Time-line*/
-.timeliner {
-    position: relative;
-    padding: 0;
-	margin-top:20px;
-    list-style: none;
-}
-.timeliner:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
-}
-.timeliner>li {
-    position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
-}
-.timeliner>li:before,
-.timeliner>li:after {
-    content: " ";
-    display: table;
-}
-.timeliner>li:after {
-    clear: both;
-}
-.timeliner>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
- .timeliner>li .timeline-panel:before {
-    border-left-width: 0;
-} 
- .timeliner>li .timeline-panel:after {
-    border-left-width: 0;
-}
-.timeliner>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    color: #fff;
-}
-.timeliner>li .timeline-image h4 {
-    margin-top: 12px;
-	color:#171717;
-}
-.timeliner>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-.timeliner>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-.timeliner>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-.timeliner>li:last-child {
-    margin-bottom: 0;
-}
-.timeliner .timeline-heading h4 {
-    margin-top: 0;
-}
-.timeliner .timeline-heading h4.subheading {
-    text-transform: none;
-	text-transform:uppercase;
-	color:#171717;
-	font-weight:700;
-}
-.timeliner .timeline-body>p,
-.timeliner .timeline-body>ul {
-    margin-bottom: 0;
-}
-.timeline-icon {
-   border:2px dashed #ccc;
-   background:#fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  color: #171717;
-  font-size: 18px;
-  height: 70px;
-  left: 50%;
-  line-height: 70px;
-  margin: 22px 0 0 -35px;
-  position: absolute;
-  text-align: center;
-  width: 70px;
-  }
-  
 
-/******************************************************************************
+/***************************************************
   Coming Soon
-*******************************************************************************/
+**************************************************************/
 .count-down-box {
 	text-align:center;
 }
