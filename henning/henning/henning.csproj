@@ -198,6 +198,19 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="grand-legacy.html" />
+    <Content Include="img\ccllc\chris-henning.jpg" />
+    <Content Include="img\ccllc\edward-handy.png" />
+    <Content Include="img\ccllc\prabhat-kaikini.png" />
+    <Content Include="img\ccllc\gloria-reilly.png" />
+    <Content Include="img\ccllc\karolina-figlesthaler.png" />
+    <Content Include="img\ccllc\liri-basha.png" />
+    <Content Include="img\ccllc\project-01.jpg" />
+    <Content Include="img\ccllc\project-02.jpg" />
+    <Content Include="img\ccllc\project-03.jpg" />
+    <Content Include="img\ccllc\project-04.jpg" />
+    <Content Include="img\ccllc\project-05.jpg" />
+    <Content Include="img\ccllc\project-06.jpg" />
+    <Content Include="img\ccllc\sarah-sadigh.png" />
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
@@ -205,7 +218,7 @@
     <Content Include="img\sections\slider\2030-population.jpg" />
     <Content Include="img\sections\slider\340x440-01.jpg" />
     <Content Include="img\sections\slider\340x440-02.jpg" />
-    <Content Include="img\sections\slider\chris-henning.png" />
+    <Content Include="img\ccllc\chris-henning.png" />
     <Content Include="img\sections\slider\fl-migration.png" />
     <Content Include="img\sections\slider\GL-drawslide-01.png" />
     <Content Include="img\sections\slider\GL-drawslide-02.png" />
@@ -410,6 +423,13 @@
     <Content Include="rs-plugin\font\revicons.eot" />
     <Content Include="rs-plugin\font\revicons.ttf" />
     <Content Include="rs-plugin\font\revicons.woff" />
+    <Content Include="img\ccllc\bio-chris-henning.docx" />
+    <Content Include="img\ccllc\bio-edward-handy.docx" />
+    <Content Include="img\ccllc\bio-gloria-reilly.docx" />
+    <Content Include="img\ccllc\bio-karolina-figlesthaler.docx" />
+    <Content Include="img\ccllc\bio-liri-basha.docx" />
+    <Content Include="img\ccllc\bio-prabhat-kaikini.docx" />
+    <Content Include="img\ccllc\bio-sarah-sadigh.docx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -461,7 +481,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
     <Folder Include="img\large\" />
     <Folder Include="img\sections\about\" />
     <Folder Include="img\sections\bakery-menu\" />

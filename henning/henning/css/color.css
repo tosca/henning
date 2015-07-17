@@ -47,7 +47,12 @@ header .nav .open > a.highlighteds,
 {
 	color: #76acfc; /*blue*/
 }
-/*BACKGROUND COLOR*/	        
+#team {
+  background-color:#060e2c; /*deep blue*/
+}
+
+/*BACKGROUND COLOR*/
+	        
 .top-bar-section.top-bar-bg-color,
 .product-count,
 .nav > li > a:focus, .nav > li > a:hover,
