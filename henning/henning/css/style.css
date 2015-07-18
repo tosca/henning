@@ -119,22 +119,26 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Arimo', sans-serif;
+ /* font-family: 'Arimo', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.7;
   margin: 0 0 18px;
-  font-family:Oswald,sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   font-size: 48px;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 400;
+
 }
 h2 {
   font-size: 40px;
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: 400;
 }
 h3 {
   font-size: 32px;
@@ -269,9 +273,7 @@ a:focus{
 }
 
 /* Title */
-.title{
-	font-family:'Open Sans',sans-serif;
-}
+
 .section-title {
   border-bottom-width: 0px;
   margin-bottom: 40px;
@@ -284,6 +286,7 @@ a:focus{
     font-weight: normal;
     margin: 0 0 12px;
     padding: 14px 0;
+    color: #650b7f;
 }
 
 .section-title h2{
@@ -4059,6 +4062,10 @@ ul.tags li{
 .about-author .author-img{
 	float:left;
 	padding-right:15px;
+}
+.about-author .author-img-rt{
+	float:right;
+	padding-left:15px;
 }
 .about-author p.author-desc{
 	margin-bottom:10px;

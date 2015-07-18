@@ -200,6 +200,7 @@
     <Content Include="grand-legacy.html" />
     <Content Include="img\ccllc\chris-henning.jpg" />
     <Content Include="img\ccllc\edward-handy.png" />
+    <Content Include="img\ccllc\GrandLegacy-brochure.jpg" />
     <Content Include="img\ccllc\prabhat-kaikini.png" />
     <Content Include="img\ccllc\gloria-reilly.png" />
     <Content Include="img\ccllc\karolina-figlesthaler.png" />
@@ -210,6 +211,15 @@
     <Content Include="img\ccllc\project-04.jpg" />
     <Content Include="img\ccllc\project-05.jpg" />
     <Content Include="img\ccllc\project-06.jpg" />
+    <Content Include="img\ccllc\project-07.jpg" />
+    <Content Include="img\ccllc\project-08.jpg" />
+    <Content Include="img\ccllc\project-09.jpg" />
+    <Content Include="img\ccllc\project-10.jpg" />
+    <Content Include="img\ccllc\project-11.jpg" />
+    <Content Include="img\ccllc\project-12.jpg" />
+    <Content Include="img\ccllc\project-13.jpg" />
+    <Content Include="img\ccllc\project-14.jpg" />
+    <Content Include="img\ccllc\project-15.jpg" />
     <Content Include="img\ccllc\sarah-sadigh.png" />
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
@@ -430,6 +440,7 @@
     <Content Include="img\ccllc\bio-liri-basha.docx" />
     <Content Include="img\ccllc\bio-prabhat-kaikini.docx" />
     <Content Include="img\ccllc\bio-sarah-sadigh.docx" />
+    <Content Include="img\ccllc\Grand Legacy Villages Brochure Updated May 4, 2015.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
