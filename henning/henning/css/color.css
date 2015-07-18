@@ -1,13 +1,13 @@
 /*COLOR*/
 .section-title h1
-{
-	color: #ad1f92; /*purple*/
-color: #650b7f;}
-
-#intro h4
-{
+{	
+color: #760060}/*purple*/
+#intro h4{
 	color: #76acfc; /*blue*/
+    color: #80aaff;
 }
+
+
 
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
@@ -46,12 +46,14 @@ header .nav .open > a.highlighteds,
 .tab-pane h5,
 #contact-us h5
 {
-	color: #76acfc; /*blue*/
+     color: #6890df; /*blue*/  
 }
 #team {
   background-color:#060e2c; /*deep blue*/
 }
-
+#about h1 {
+    color: #0f2440; /*frame blue*/
+}
 /*BACKGROUND COLOR*/
 	        
 .top-bar-section.top-bar-bg-color,
@@ -113,28 +115,14 @@ div.count-number:before,
 .blog.timeliner  >li:hover .timeline-panel,
 .form-control:focus
 {
-	border-color: #ffc400;
+	border-color: #6890df;
 }
 .bottom-arrow:before{
-	border-top-color: #ffc400;
+	border-top-color: #6890df;
 }
 .rightGrip, 
 .leftGrip{
-	border-bottom: 10px solid #ffc400 !important;
-}
-
-.blog.timeliner >li:hover  .timeline-panel:before{
-  border-left-color: #ffc400;
-  
-}
-.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before{
-  border-right-color: #ffc400;
-  border-left-color: #ffffff;
-}
-.right.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
-.right.blog.timeliner >li:hover  .timeline-panel:before{
-	border-right-color: #ffc400;
-	border-left-color: #ffffff;
+	border-bottom: 10px solid #6890df !important;
 }
 .pricing:hover i.icons-circle.medium.pricing-icon{
 	text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.5);
@@ -145,11 +133,7 @@ div.count-number:before,
   Max Width "767px"
 *******************************************/
 @media (max-width: 767px) { 
-	.blog.timeliner  >li.timeline-inverted:hover .timeline-panel:before,
-	.blog.timeliner >li:hover  .timeline-panel:before{
-		border-right-color: #ffc400;
-		border-left-color: #ffffff;
-	}
+	
 }
 /* Transparent Color */
 .btn-default:hover,
@@ -160,16 +144,15 @@ div.count-number:before,
 
 /* Content Select In Browser */
 ::-moz-selection {
-    background: #ad1f92;
+    background: #80aaff;
     color: #000000;
     text-shadow: none;
 }
 ::selection {
-    background: #ad1f92;
+    background:  #80aaff;
     color: #a4003a;
     text-shadow: none;
 }
-
 
 
 
