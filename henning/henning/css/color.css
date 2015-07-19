@@ -6,9 +6,6 @@ color: #760060}/*purple*/
 	color: #76acfc; /*blue*/
     color: #80aaff;
 }
-
-
-
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
@@ -49,10 +46,10 @@ header .nav .open > a.highlighteds,
      color: #6890df; /*blue*/  
 }
 #team {
-  background-color:#060e2c; /*deep blue*/
+  background-color:#34495e; /*suit blue*/
 }
 #about h1 {
-    color: #0f2440; /*frame blue*/
+    color: #34495e; /*suit blue*/
 }
 /*BACKGROUND COLOR*/
 	        

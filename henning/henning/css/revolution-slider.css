@@ -35,8 +35,6 @@ website:   	http://www.themepunch.com
 		padding:0;
 }
 
-
-
 /*******************************************************************************
 		-	BULLETS AND ARROWS ADD ONS TO THE EXISTING VERSION 	-
 *******************************************************************************/
@@ -46,8 +44,6 @@ website:   	http://www.themepunch.com
     background:rgba(0,0,0,0.1);
     height:5px;
   }
-
-
 
 .tp-bullets.simplebullets.navbar {
 
@@ -91,8 +87,6 @@ website:   	http://www.themepunch.com
     border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
-
-
 .tparrows:before {
     font-family: 'revicons';
 	color: #fff;
@@ -132,8 +126,6 @@ website:   	http://www.themepunch.com
     background: rgba(0, 0, 0, 1) !important;
 }
 
-
-
 /******************************
 	-	SLIDER NAV STYLE DEMOS	-
 ********************************/
@@ -152,7 +144,10 @@ website:   	http://www.themepunch.com
 #slider4container .tparrows:hover	{
 	background:#fff !important
 }
-
+.tp-caption h2{
+    font-family: 'Gentium Book Basic', serif;/*tosca*/
+    font-size: 70px;
+}
 .tp-caption.medium_grey {
 position:absolute;
 color:#fff;
