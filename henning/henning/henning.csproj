@@ -235,6 +235,11 @@
     <Content Include="img\sections\slider\GL-drawslide-03.png" />
     <Content Include="img\sections\slider\gl-park.png" />
     <Content Include="img\sections\slider\GL-drawslide-04.png" />
+    <Content Include="img\sections\slider\GL-slide-img-01.png" />
+    <Content Include="img\sections\slider\GL-slide-img-02.png" />
+    <Content Include="img\sections\slider\GL-slide-img-03-.png" />
+    <Content Include="img\sections\slider\GL-slide-img-04-.png" />
+    <Content Include="img\sections\slider\GL-slide-img-05-.png" />
     <Content Include="img\sections\slider\gl-slide01.jpg" />
     <Content Include="img\sections\slider\gl-slide02.jpg" />
     <Content Include="img\sections\slider\gl-slide03.jpg" />
@@ -433,12 +438,6 @@
     <Content Include="rs-plugin\font\revicons.eot" />
     <Content Include="rs-plugin\font\revicons.ttf" />
     <Content Include="rs-plugin\font\revicons.woff" />
-    <Content Include="img\ccllc\bio-edward-handy.docx" />
-    <Content Include="img\ccllc\bio-gloria-reilly.docx" />
-    <Content Include="img\ccllc\bio-karolina-figlesthaler.docx" />
-    <Content Include="img\ccllc\bio-liri-basha.docx" />
-    <Content Include="img\ccllc\bio-prabhat-kaikini.docx" />
-    <Content Include="img\ccllc\bio-sarah-sadigh.docx" />
     <Content Include="img\ccllc\Grand Legacy Villages Brochure Updated May 4, 2015.pdf" />
     <Content Include="img\ccllc\CFH Biography 2014.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
