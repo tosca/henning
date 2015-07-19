@@ -433,7 +433,6 @@
     <Content Include="rs-plugin\font\revicons.eot" />
     <Content Include="rs-plugin\font\revicons.ttf" />
     <Content Include="rs-plugin\font\revicons.woff" />
-    <Content Include="img\ccllc\bio-chris-henning.docx" />
     <Content Include="img\ccllc\bio-edward-handy.docx" />
     <Content Include="img\ccllc\bio-gloria-reilly.docx" />
     <Content Include="img\ccllc\bio-karolina-figlesthaler.docx" />
@@ -441,6 +440,7 @@
     <Content Include="img\ccllc\bio-prabhat-kaikini.docx" />
     <Content Include="img\ccllc\bio-sarah-sadigh.docx" />
     <Content Include="img\ccllc\Grand Legacy Villages Brochure Updated May 4, 2015.pdf" />
+    <Content Include="img\ccllc\CFH Biography 2014.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
