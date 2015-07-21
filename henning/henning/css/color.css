@@ -41,15 +41,20 @@ color: #760060}/*purple*/
 .side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighteds,
 .tab-pane h5,
-#contact-us h5
+#contact h5
 {
      color: #6890df; /*blue*/  
 }
+#video-controls{
+    color: #c0c5cd;
+}
 #team {
   background-color:#34495e; /*suit blue*/
+  background-color:#144371;
 }
-#about h1 {
-    color: #34495e; /*suit blue*/
+#about h1,
+#projects .title {
+    color: #144371; /*suit blue*/
 }
 /*BACKGROUND COLOR*/
 	        
