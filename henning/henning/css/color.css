@@ -53,7 +53,8 @@ header .nav .open > a.highlighteds,
   background-color:#144371;
 }
 #about h1,
-#projects .title {
+#projects .title,
+.panel-title a{
     color: #144371; /*suit blue*/
 }
 /*BACKGROUND COLOR*/

@@ -262,6 +262,9 @@ a:hover {
 }
 a,
 a:hover,
+
+
+
 a:visited,
 a:focus{
 	outline: 0 none;
@@ -1005,8 +1008,9 @@ i.fa-1x{
 
 .panel-group .panel .panel-heading > .panel-title > a {
     border-bottom: 1px dotted #f2f2f2;
-    color: #1e1e1e;
+    color: #144371;
     font-weight: 600;
+    text-transform: uppercase;
     line-height: 22px;
     transition: background-color 0.2s linear 0s;
 }
