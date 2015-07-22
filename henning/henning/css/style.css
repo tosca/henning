@@ -164,6 +164,10 @@ h6 {
 .buda {
 font-family: 'Buda', cursive;
 }
+.gentium-font {
+font-family: 'Gentium Book Basic', serif;
+
+}
 .head-no-margin h6{
 	margin-bottom:14px;
 }
@@ -4794,6 +4798,7 @@ ul.tags li{
 /*************
     tosca edits
 *****************/
+
 .nav-pills li a {
     font-weight:600;
     text-transform:uppercase;
