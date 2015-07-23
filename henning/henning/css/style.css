@@ -274,22 +274,18 @@ a:focus{
     width: 100%;
 }
 /* Positions */
-
 .absolute{
 	position: absolute;
 }
 .relative{
 	position: relative;
 }
-
 /* Title */
-.title {
-  font-family: 'Gentium Book Basic', serif;
-}
 .section-title {
   border-bottom-width: 0px;
   margin-bottom: 40px;
   position: relative;
+  font-family: 'Gentium Book Basic', serif;
 }
 .section-title h1{
 	text-transform:uppercase;
@@ -299,7 +295,6 @@ a:focus{
     margin: 0 0 12px;
     padding: 14px 0;
 }
-
 .section-title h2{
 	text-transform:uppercase;
 	text-align:center;
@@ -1724,19 +1719,19 @@ i,
 .tp-caption {
   white-space: inherit;
   color: #ffffff; 
-   font-family:'Gentium Book Basic', serif; 
+   
 }
-.tp-caption.title{
-  font-size: 60px !important;
+.tp-caption.bold{
+  font-size: 65px;
   font-weight: 400;
- 
+  font-family:'Gentium Book Basic', serif;
   text-transform:uppercase;
   margin: 0;
-  line-height: 1.7;
+  line-height: 75;
 }
 .tp-caption.description {
-   font-size: 40px !important;    
-	line-height: 1.5 !important;
+   font-size: 20px !important;    
+	line-height: 30px !important;
     letter-spacing: 6px;
     font-family: "Open Sans", sans-serif;
 }
@@ -2974,8 +2969,6 @@ div.count-number:before{
 .item-box.icons-color.hover-white:hover i{
 	color: #ffffff;
 }
-
-
 /* Video Post */
 .video-box {
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
