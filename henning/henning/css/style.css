@@ -360,7 +360,7 @@ section,
     max-width: 1200px;
 }
 .page-section{
-	padding:75px 0;    
+	padding:100px 0;  /*tosca changed from 75*/  
 	display: block;
     overflow: hidden;
     position: relative;
@@ -1730,10 +1730,11 @@ i,
   line-height: 75;
 }
 .tp-caption.description {
-   font-size: 20px !important;    
-	line-height: 30px !important;
-    letter-spacing: 6px;
+   font-size: 25px !important;    
+	line-height: 32px !important;
+    letter-spacing: 5px;
     font-family: "Open Sans", sans-serif;
+    text-transform:uppercase;
 }
 
 .tparrows:before {
@@ -1790,7 +1791,7 @@ p.tp-caption.button-block a{
 .slider.rs-slider .title.bold,
 .slider .bold  {
   font-size: 65px;
-  font-weight: bold;
+  font-weight: normal;
   text-transform:uppercase;
   margin: 0;
   line-height: 75px;
@@ -1806,12 +1807,6 @@ p.tp-caption.button-block a{
 }
 .slider.rs-slider .btn {
     color: #ffffff;
-}
-.slider.rs-slider .btn.orang {
-  background: #ea4e16;
-}
-.slider.rs-slider .btn.cherry {
-  background: #752033;
 }
 .slider.rs-slider .phone-text {
   font-size: 17px;
@@ -1977,9 +1972,6 @@ tp-transparent img{
   display: none !important;
 }
 
-.tp-caption p {
-  /*  line-height: 2.0;tosca*/
-}
 .rs-slider-full .tparrows{
 	background:none!important;
 }
@@ -2142,22 +2134,26 @@ tp-transparent img{
 
 
 /* Owl Slider */
+.owl-carousel .owl-item {
+  float: left;
+  margin-right: 20px;
+}
 .owl-prev i,
 .owl-next i{
-	color: #111;
-    font-size: 15px;
+	color: #000000;
+    font-size: 25px;
 }
 .owl-prev .fa, .owl-next .fa {
     position: relative;
-    width: 30px;
-	height:30px;
-	line-height:30px;
+    width: 40px;
+	height:40px;
+	line-height:40px;
 	border-radius:50%;
 	-moz-border-radius:50%;
 }
 .owl-prev,
 .owl-next{
-	color: #111;
+	color: #000000;
     display: block;
     opacity: 0;
     position: absolute;
@@ -4759,6 +4755,7 @@ ul.tags li{
 #services h4 {
     font-family: 'Gentium Book Basic', serif;
 }
+
 /******************************************************************************
   Bootstrap Elements
 *******************************************************************************/

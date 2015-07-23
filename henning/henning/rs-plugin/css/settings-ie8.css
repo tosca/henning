@@ -188,45 +188,7 @@ website:   	http://www.themepunch.com
 			border-style: none;
 			white-space:nowrap;
 		}
-.tp-caption.bold_red_text{
-			position: absolute;
-			color: #d31e00;
-			text-shadow: none;
-			font-weight: 800;
-			font-size: 20px;
-			line-height: 20px;
-			font-family: 'Open Sans', sans;
-			margin: 0px;
-			border-width: 0px;
-			border-style: none;
-			white-space:nowrap;
-		}
-.tp-caption.bold_brown_text{
-			position: absolute;
-			color: #a04606;
-			text-shadow: none;
-			font-weight: 800;
-			font-size: 20px;
-			line-height: 20px;
-			font-family: 'Open Sans', sans;
-			margin: 0px;
-			border-width: 0px;
-			border-style: none;
-			white-space:nowrap;
-		}
-    .tp-caption.bold_green_text{
-			position: absolute;
-			color: #5b9830;
-			text-shadow: none;
-			font-weight: 800;
-			font-size: 20px;
-			line-height: 20px;
-			font-family: 'Open Sans', sans;
-			margin: 0px;
-			border-width: 0px;
-			border-style: none;
-			white-space:nowrap;
-		}
+
 
 .tp-caption.very_big_white{
 			position: absolute;
