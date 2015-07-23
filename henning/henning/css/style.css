@@ -2536,53 +2536,6 @@ tp-transparent img{
   Portfolio / Work
 *******************************************************************************/
 
-.work-section .nav li,
-.mixed-grid .nav li{
-	padding:7px 15px;
-	margin:0 20px 30px 20px;
-	border-radius: 3px;
-	border:1px solid transparent;
-	color:#ffffff;
-	text-transform:capitalize;
-}
-.work-section .nav.black li,
-.mixed-grid .nav.black li{
-	color:#171717;
-}
-.work-section .nav li.active,
-.work-section .nav li:hover,
-.mixed-grid .nav li.active,
-.mixed-grid .nav li:hover{
-	border:1px solid #ffffff;
-	cursor:pointer;
-	color:#ffffff;
-}
-.work-section .nav.black li.active,
-.work-section .nav.black li:hover,
-.mixed-grid .nav.black li.active,
-.mixed-grid .nav.black li:hover{
-	border:1px solid #171717;
-	cursor:pointer;
-	color:#171717;
-}
-.work-section .nav-pills{
-	text-align:center;
-}
-#support .nav-pills{
-	text-align:center;
-}
-.work-section .portfolio-grid .grid{
-	max-width:400px;
-}
-.work-section .nav > li,
-.mixed-grid .nav  > li{
-	float:none;
-	display:inline-block;
-}
-#mix-container .mix{
-	display: none;
-	padding:10px;
-}
 .figcaption{
 	width:100%;
 }
