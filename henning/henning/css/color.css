@@ -6,6 +6,13 @@ color: #760060}/*purple*/
 	color: #76acfc; /*blue*/
     color: #80aaff;
 }
+.purple{	
+color: #760060/*purple*/
+}
+blue{
+	color: #76acfc; /*blue*/
+    color: #80aaff;
+}
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
@@ -48,7 +55,9 @@ header .nav .open > a.highlighteds,
 #video-controls{
     color: #c0c5cd;
 }
-#team {
+#team,
+.ccllc-contact-form
+ {
   background-color:#34495e; /*suit blue*/
   background-color:#144371;
 }

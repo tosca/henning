@@ -213,6 +213,7 @@
     <Content Include="grand-legacy.html" />
     <Content Include="img\32x32.png" />
     <Content Include="img\72x72.png" />
+    <Content Include="img\ccllc\2030-population.jpg" />
     <Content Include="img\ccllc\chris-henning.jpg" />
     <Content Include="img\ccllc\edward-handy.png" />
     <Content Include="img\ccllc\GrandLegacy-brochure.jpg" />
