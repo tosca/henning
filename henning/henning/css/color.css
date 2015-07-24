@@ -23,8 +23,6 @@ blue{
 .item-box a:hover i,
 .inverse i,
 .item-box.icons-color i,
-.pricing:hover .title,
-.pricing:hover .title a,
 .process-content:hover .title,
 .pricing .price,
 .post-meta  i,
@@ -40,34 +38,31 @@ blue{
 #page .breadcrumb > .active,
 .timeliner li:hover .timeline-heading h4.subheading,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-.sitemap li a:hover,
-.bakery-block:hover .fill-icon,
-.pricing:hover .pricing-icon,
-.travel-block i,
 .side-navbar .top-contact.link-hover-black > a:hover,
 .side-navbar .top-social-icon > a:hover i,
 header .nav .open > a.highlighteds,
 .tab-pane h5,
 #contact h4
 {
-     color: #6890df; /*blue*/  
+   color: #6890df; /*blue*/  
 }
 #video-controls{
-    color: #c0c5cd;
-}
-#team,
-.ccllc-contact-form
- {
-  background-color:#34495e; /*suit blue*/
-  background-color:#144371;
+  color: #c0c5cd;
 }
 #about h1,
+#about h2,
 #projects .title,
 .panel-title a{
     color: #144371; /*suit blue*/
 }
-/*BACKGROUND COLOR*/
-	        
+.ccllc-bg-color,
+.ccllc-contact-form,
+.progress-bar
+ {
+  background-color:#34495e; /*suit blue*/
+  background-color:#144371;
+}
+/*BACKGROUND COLOR*/	        
 .top-bar-section.top-bar-bg-color,
 .product-count,
 .nav > li > a:focus, .nav > li > a:hover,
@@ -79,7 +74,7 @@ header .nav .open > a.highlighteds,
 .special-feature .mask-top h4:before ,
 .s-feature-box,
 .s-feature-box:hover .mask-bottom,
-.progress-bar,
+
 .owl-prev .fa, .owl-next .fa,
 h3.count-number:before,
 h2.count-number:before,
@@ -94,24 +89,9 @@ h2.count-number:before,
 .bar,
 .pagination > .active > span,
 .pagination > .active > span:hover,
-.blog.timeliner>li:hover .timeline-image,
-.blog.timeliner>li:hover .timeline-icon,
 div.count-number:before,
 .static-color-icons span,
 .fill-icon:after,
-.bakery-menu .nav-tabs > li.active > a, 
-.bakery-menu .nav-tabs > li.active > a:focus, 
-.bakery-menu .nav-tabs > li.active > a:hover,
-.travel-tab .input-group-addon,
-.travel-tab .nav-tabs > .active > a,
-.travel-tab .nav-tabs > .active > a:hover,
-.travel-tab .nav-tabs > .active > a:focus,
-.bootstrap-datetimepicker-widget table td.active, 
-.bootstrap-datetimepicker-widget table td.active:hover,
-.travel-tab .nav-tabs > li a > i ,
-.hotel-tab .nav-tabs > li.active > a, 
-.hotel-tab .nav-tabs > li.active > a:focus, 
-.hotel-tab .nav-tabs > li.active > a:hover,
 .navbar-default .navbar-toggle .icon-bar
 {
 	background-color: #ad1f92; /*purple*/
@@ -127,19 +107,15 @@ div.count-number:before,
 .blog.timeliner  >li:hover .timeline-panel,
 .form-control:focus
 {
-	border-color: #6890df;
+	border-color: #6890df; /*blue*/
 }
 .bottom-arrow:before{
-	border-top-color: #6890df;
+	border-top-color: #6890df; /*blue*/
 }
 .rightGrip, 
 .leftGrip{
 	border-bottom: 10px solid #6890df !important;
 }
-.pricing:hover i.icons-circle.medium.pricing-icon{
-	text-shadow: 0px 0px 5px rgba(255, 196, 0, 0.5);
-}	
-
 
 /********************************************
   Max Width "767px"
