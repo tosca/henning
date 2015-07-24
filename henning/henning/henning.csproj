@@ -193,8 +193,21 @@
     <Content Include="css\settings.css" />
     <Content Include="css\style.css" />
     <Content Include="css\video.css" />
-    <Content Include="favicon-CCLLC.ico" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\icomoon.svg" />
+    <Content Include="fonts\Pe-icon-set-interface.svg" />
+    <Content Include="fonts\Pe-icon-social.svg" />
+    <Content Include="fonts\revicons.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="grand-legacy.html" />
@@ -223,6 +236,7 @@
     <Content Include="img\ccllc\project-14.jpg" />
     <Content Include="img\ccllc\project-15.jpg" />
     <Content Include="img\ccllc\sarah-sadigh.png" />
+    <Content Include="img\favicon.ico" />
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
@@ -255,7 +269,6 @@
     <Content Include="img\blank.gif" />
     <Content Include="img\comment-link.png" />
     <Content Include="img\down.png" />
-    <Content Include="img\favicon.ico" />
     <Content Include="img\jslider.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\map-marker.png" />
@@ -378,6 +391,18 @@
     <Content Include="img\ccllc\Grand Legacy Villages Brochure Updated May 4, 2015.pdf" />
     <Content Include="img\ccllc\CFH Biography 2014.pdf" />
     <Content Include="img\sections\slider\SITE PLAN REV. JUNE 16TH 2015.pdf" />
+    <Content Include="fonts\icomoon.eot" />
+    <Content Include="fonts\icomoon.ttf" />
+    <Content Include="fonts\icomoon.woff" />
+    <Content Include="fonts\Pe-icon-set-interface.eot" />
+    <Content Include="fonts\Pe-icon-set-interface.ttf" />
+    <Content Include="fonts\Pe-icon-set-interface.woff" />
+    <Content Include="fonts\Pe-icon-social.eot" />
+    <Content Include="fonts\Pe-icon-social.ttf" />
+    <Content Include="fonts\Pe-icon-social.woff" />
+    <Content Include="fonts\revicons.eot" />
+    <Content Include="fonts\revicons.ttf" />
+    <Content Include="fonts\revicons.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -434,9 +459,6 @@
     <Folder Include="img\small\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
