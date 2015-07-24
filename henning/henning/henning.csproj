@@ -193,11 +193,13 @@
     <Content Include="css\settings.css" />
     <Content Include="css\style.css" />
     <Content Include="css\video.css" />
-    <Content Include="favicon.ico" />
+    <Content Include="favicon-CCLLC.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="grand-legacy.html" />
+    <Content Include="img\32x32.png" />
+    <Content Include="img\72x72.png" />
     <Content Include="img\ccllc\chris-henning.jpg" />
     <Content Include="img\ccllc\edward-handy.png" />
     <Content Include="img\ccllc\GrandLegacy-brochure.jpg" />
