@@ -62,6 +62,11 @@ header .nav .open > a.highlighteds,
 .progress-bar{
   background-color:#144371; /*suit blue*/
 }
+/*outline font*/
+.stroke {
+ color: #c00; /* text color */
+ -webkit-text-stroke: 1px #000; /* stroke color and weight */
+}
 /*BACKGROUND COLOR*/	        
 .top-bar-section.top-bar-bg-color,
 .product-count,
