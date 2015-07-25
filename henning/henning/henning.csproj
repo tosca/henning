@@ -238,6 +238,7 @@
     <Content Include="img\ccllc\project-15.jpg" />
     <Content Include="img\ccllc\sarah-sadigh.png" />
     <Content Include="img\favicon.ico" />
+    <Content Include="img\favicon.png" />
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
@@ -258,6 +259,7 @@
     <Content Include="img\sections\slider\GL-slide-img-03.png" />
     <Content Include="img\sections\slider\GL-slide-img-04.png" />
     <Content Include="img\sections\slider\GL-slide-img-05.png" />
+    <Content Include="img\sections\slider\GL-slide-img-06.png" />
     <Content Include="img\sections\slider\gl-slide01.jpg" />
     <Content Include="img\sections\slider\gl-slide02.jpg" />
     <Content Include="img\sections\slider\gl-slide03.jpg" />
