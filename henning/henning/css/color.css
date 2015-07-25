@@ -1,17 +1,19 @@
 /*COLOR*/
-.section-title h1
-{	
-color: #760060}/*purple*/
-#intro h4{
-	color: #76acfc; /*blue*/
-    color: #80aaff;
+.section-title h1,
+.section-title h2{	
+    color: #ad1f92}/*purple*/
+#intro h4,
+.section-title h2{
+    color:#6890df;/*blue*/
 }
 .purple{	
-color: #760060/*purple*/
+color: #ad1f92/*purple*/
 }
-blue{
-	color: #76acfc; /*blue*/
-    color: #80aaff;
+.blue{
+    color:#6890df;/*blue*/
+}
+.suit-blue {
+    color:#144371;
 }
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
@@ -28,7 +30,7 @@ blue{
 .post-meta  i,
 .meta i,
 .quote blockquote:before,
-.quote blockquote:after,
+.quote blockquot:after,
 #video-controls a,
 .link-hover-color a:hover,
 .icons-hover-color i:hover,
@@ -57,10 +59,8 @@ header .nav .open > a.highlighteds,
 }
 .ccllc-bg-color,
 .ccllc-contact-form,
-.progress-bar
- {
-  background-color:#34495e; /*suit blue*/
-  background-color:#144371;
+.progress-bar{
+  background-color:#144371; /*suit blue*/
 }
 /*BACKGROUND COLOR*/	        
 .top-bar-section.top-bar-bg-color,
@@ -132,13 +132,14 @@ div.count-number:before,
 
 /* Content Select In Browser */
 ::-moz-selection {
-    background: #80aaff;
+    background: #6890df;
     color: #000000;
     text-shadow: none;
 }
 ::selection {
-    background:  #80aaff;
-    color: #a4003a;
+   
+    background:  #6890df;/*blue*/
+    color:#ad1f92;/*purple*/
     text-shadow: none;
 }
 
