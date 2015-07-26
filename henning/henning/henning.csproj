@@ -239,6 +239,7 @@
     <Content Include="img\ccllc\sarah-sadigh.png" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\favicon.png" />
+    <Content Include="img\gl-light-04.png" />
     <Content Include="img\path.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
@@ -276,7 +277,6 @@
     <Content Include="img\comment-link.png" />
     <Content Include="img\down.png" />
     <Content Include="img\jslider.png" />
-    <Content Include="img\logo.png" />
     <Content Include="img\map-marker.png" />
     <Content Include="img\patterns\pattern.png" />
     <Content Include="img\patterns\pattern2.png" />

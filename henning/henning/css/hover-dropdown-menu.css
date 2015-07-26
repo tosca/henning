@@ -486,7 +486,15 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 155px;
+	width: 180px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nav-brand .name-logo{
+    line-height: normal;
+    font-family: 'Gentium Book Basic' serif;
+    color: #144371;
 }
 /* Shop Header */
 .shop-header-block{
