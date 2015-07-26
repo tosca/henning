@@ -248,6 +248,9 @@
     <Content Include="img\sections\slider\340x440-02.jpg" />
     <Content Include="img\ccllc\chris-henning.png" />
     <Content Include="img\sections\slider\fl-migration.png" />
+    <Content Include="img\sections\slider\GL-doings-01.jpg" />
+    <Content Include="img\sections\slider\GL-doings-02.jpg" />
+    <Content Include="img\sections\slider\GL-doings-03.jpg" />
     <Content Include="img\sections\slider\gl-park.png" />
     <Content Include="img\sections\slider\GL-plan.jpg" />
     <Content Include="img\sections\slider\gl-property-01.jpg" />

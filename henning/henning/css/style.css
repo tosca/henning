@@ -405,6 +405,10 @@ color:#ffffff;
 	background:#000;
 	color:#fff!important;
 }
+.btn-blue{
+	background:#6890df;
+	color:#fff!important;
+}
 .btn-black:hover{
 	background:#FFC400;
 }
