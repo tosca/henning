@@ -53,6 +53,8 @@ header .nav .open > a.highlighteds,
 }
 #about h1,
 #about h2,
+#proposal h1,
+#proposal h2,
 #projects .title,
 .panel-title a{
     color: #144371; /*suit blue*/
