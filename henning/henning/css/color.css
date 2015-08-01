@@ -51,6 +51,7 @@ header .nav .open > a.highlighteds,
 #video-controls{
   color: #c0c5cd;
 }
+.nav-bar li a,
 #about h1,
 #about h2,
 #proposal h1,
@@ -81,7 +82,6 @@ header .nav .open > a.highlighteds,
 .special-feature .mask-top h4:before ,
 .s-feature-box,
 .s-feature-box:hover .mask-bottom,
-
 .owl-prev .fa, .owl-next .fa,
 h3.count-number:before,
 h2.count-number:before,

@@ -8,6 +8,9 @@ li{
 }
 /* Ends No Need Style */
 /* Custom Navigation */
+.navbar-nav > li a {
+    font-size: 20px;
+}
 .navbar-nav{
 	float: right;
 }
@@ -160,7 +163,7 @@ li.mega-menu{
 	background-color: #fff;
 }
 .navbar.navbar-bg-light .navbar-nav > li > a{
-	color: #222;
+	color: #144371; /*suit blue*/
 }
 /* Set Navbar Background-color dark */
 .navbar.navbar-bg-dark{
@@ -174,13 +177,13 @@ li.mega-menu{
 	background-color: transparent
 }
 .navbar-transparent .navbar-nav > li > a{
-	color: #fff;
+	color: #144371; /*suit blue*/
 }
 .navbar-semi-transparent{
 	background-color: rgba(255, 255, 255, 0.8)
 }
 .navbar-transparent .navbar-nav > li > a{
-	color: #222;
+	color: #144371; /*suit blue*/
 }
 .navbar-transparent{
 	border-color: transparent;
