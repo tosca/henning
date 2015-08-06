@@ -44,21 +44,6 @@ website:   	http://www.themepunch.com
 }
 
 
-.tp-caption.finewide_large_white {
-color:#ffffff;
-text-shadow:none;
-font-size:60px;
-line-height:60px;
-font-weight:300;
-font-family:"Open Sans", sans-serif;
-background-color:transparent;
-text-decoration:none;
-text-transform:uppercase;
-letter-spacing:18px;
-border-width:0px;
-border-color:rgb(0, 0, 0);
-border-style:none;
-}
 
 .tp-caption.whitedivider3px {
 color:#000000;
@@ -175,7 +160,7 @@ text-shadow: none;
 font-size: 60px;
 line-height: 60px;
 font-weight: 300;
-font-family: "Open Sans", sans-serif;
+font-family: 'Gentium Book Basic', serif;
 background-color: rgba(0, 0, 0, 0);
 text-decoration: none;
 text-transform: uppercase;
@@ -308,7 +293,7 @@ text-shadow:0px 2px 5px rgba(0, 0, 0, 0.5);
 font-weight:700;
 font-size:20px;
 line-height:20px;
-font-family:Arial;
+font-family:"Open Sans" sans-serif;
 margin:0px;
 border-width:0px;
 border-style:none;
@@ -320,7 +305,7 @@ white-space:nowrap;
 font-size:55px;
 line-height:65px;
 font-weight:700;
-font-family:"Open Sans";
+font-family:"Open Sans" sans-serif;
 color:#fff;
 text-decoration:none;
 background-color:transparent;

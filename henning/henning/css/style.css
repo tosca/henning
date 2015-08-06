@@ -1308,8 +1308,8 @@ textarea.form-control.height-82{
 .white-bg{
 	background: #ffffff;
 }
-.black-bg{
-	background: #171717;
+.blue-bg{
+	background: #6890df;
 }
 .border-tb{	
     border-bottom: 1px solid #f2f2f2;
@@ -1609,7 +1609,7 @@ i,
 /************************************************************
 							SLIDER SECTION
 *************************************************************/
-/*Revolution Slider */
+/*Revolution Slider 
 .tp-caption {
   white-space: inherit;
   color: #ffffff; 
@@ -1716,7 +1716,7 @@ p.tp-caption.button-block a{
 tp-transparent img{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
-}	
+/*}	
 .rs-slider ul {
   list-style: none;
   margin: 0;
@@ -1874,7 +1874,7 @@ tp-transparent img{
 .rs-slider-full  .tp-rightarrow{
 	right:-10px!important;
 }
-
+*/
 /* Bootstrap Carousel */
 .carousel-control {
     top: 0;

@@ -190,7 +190,6 @@
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\revolution-slider.css" />
-    <Content Include="css\settings.css" />
     <Content Include="css\style.css" />
     <Content Include="css\video.css" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -261,6 +260,9 @@
     <Content Include="img\sections\slider\gl-property-02.jpg" />
     <Content Include="img\sections\slider\gl-property-03.jpg" />
     <Content Include="img\sections\slider\gl-property-04.jpg" />
+    <Content Include="img\sections\slider\gl-slide-20.jpg" />
+    <Content Include="img\sections\slider\gl-slide-21.jpg" />
+    <Content Include="img\sections\slider\gl-slide-22.jpg" />
     <Content Include="img\sections\slider\GL-slide-img-01.png" />
     <Content Include="img\sections\slider\GL-slide-img-02.png" />
     <Content Include="img\sections\slider\GL-slide-img-03.png" />
