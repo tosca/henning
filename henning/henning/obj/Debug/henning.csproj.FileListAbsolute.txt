@@ -107,3 +107,5 @@ C:\Root\Dev\Projects\henning\henning\henning\bin\Microsoft.Owin.Security.Twitter
 C:\Root\Dev\Projects\henning\henning\henning\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Root\Dev\Projects\henning\henning\henning\obj\Debug\henning.dll
 C:\Root\Dev\Projects\henning\henning\henning\obj\Debug\henning.pdb
+C:\Root\Projects\henning\henning\henning\bin\RestSharp.dll
+C:\Root\Projects\henning\henning\henning\bin\RestSharp.xml
