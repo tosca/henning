@@ -74,8 +74,9 @@ namespace henning.Controllers
             request.AddParameter("from", "Excited User <mailgun@mailgun.org>");
             //request.AddParameter("to", "bar@example.com");
             request.AddParameter("to", "tosca.ragnini@gmail.com");
-            request.AddParameter("subject", "Hello");
-            request.AddParameter("text", "Testing some Mailgun awesomness!");
+            request.AddParameter("subject","Grand Legacy - Contact Request");
+            request.AddParameter("text", "FirstName : " + firstName);
+            request.AddParameter("text", "LastName : " + lastName);
             request.Method = Method.POST;
             var result = client.Execute(request);
             return;
