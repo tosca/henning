@@ -31,6 +31,11 @@ namespace henning.Controllers
 
             return View();
         }
+
+
+
+
+
         [HttpGet]
         public ActionResult Contact()
         { 
@@ -45,7 +50,11 @@ namespace henning.Controllers
 
             var firstName = contact.FirstName;
             var lastName = contact.LastName;
-           SendEmail(firstName, lastName);
+            var fullName = contact.FullName;
+            var contactEmail = contact.ContactEmail;
+            var contactPhone = contact.ContactPhone;
+            var contactMessage = contact.ContactMessage;
+            SendEmail(firstName, lastName, fullName, contactEmail, contactPhone, contactMessage);
             return RedirectToAction("Index");
         }
 
@@ -58,7 +67,7 @@ namespace henning.Controllers
         }
 
 
-        public void SendEmail(string firstName, string lastName)
+        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage)
         {
 
             RestClient client = new RestClient();
@@ -71,12 +80,16 @@ namespace henning.Controllers
             request.AddParameter("domain",
                                  System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
-            request.AddParameter("from", "Excited User <mailgun@mailgun.org>");
+            request.AddParameter("from", "Grand Legacy Village inquiry");
             //request.AddParameter("to", "bar@example.com");
             request.AddParameter("to", "tosca.ragnini@gmail.com");
             request.AddParameter("subject","Grand Legacy - Contact Request");
             request.AddParameter("text", "FirstName : " + firstName);
             request.AddParameter("text", "LastName : " + lastName);
+            request.AddParameter("text", "FullName : " + fullName);
+            request.AddParameter("text", "ContactEmail : " + contactEmail);
+            request.AddParameter("text", "ContactPhone : " + contactPhone);
+            request.AddParameter("text", "ContactMessage : " + contactMessage);
             request.Method = Method.POST;
             var result = client.Execute(request);
             return;
@@ -89,10 +102,11 @@ namespace henning.Controllers
     public class ContactInfo
     {
         public string FirstName { get; set; }
+        public string FullName { get; set; }
         public string LastName { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Message { get; set; }
+        public string ContactEmail { get; set; }
+        public string ContactPhone { get; set; }
+        public string ContactMessage { get; set; }
 
     }
 }
