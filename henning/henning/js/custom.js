@@ -974,7 +974,7 @@ $(document).ready(function() {
 	appMaster.portfolioFilter();
 	appMaster.prettyPhoto();
 	appMaster.backgroundVideo();
-	appMaster.simplecontactForm();
+//	appMaster.simplecontactForm();
 	appMaster.subscribeForm();
 	appMaster.navMenu();
 	appMaster.typedSlider();
