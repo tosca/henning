@@ -3601,8 +3601,9 @@ ul.tags li{
     padding: 8px 12px;
     width: 100%;
 }
-.selectBox, .form-control .textarea-message {
-    height: 82px;
+.form-control .textarea-message {
+    overflow:scroll;
+    overflow-wrap: break-word;
 }
 .transparent-half-white{
 	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7) !important;
