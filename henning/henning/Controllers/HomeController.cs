@@ -46,12 +46,11 @@ namespace henning.Controllers
             ViewBag.Message = "Your contact page.";
 
             var firstName = contact.FirstName;
-            var lastName = contact.LastName;
             var fullName = contact.FullName;
             var contactEmail = contact.ContactEmail;
             var contactPhone = contact.ContactPhone;
             var contactMessage = contact.ContactMessage;
-            SendEmail(firstName, lastName, fullName, contactEmail, contactPhone, contactMessage);
+           SendEmail(firstName, fullName, contactEmail, contactPhone, contactMessage);
             return RedirectToAction("Index");
         }
 
@@ -64,7 +63,7 @@ namespace henning.Controllers
         }
 
 
-        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage)
+        public void SendEmail(string firstName, string fullName, string contactEmail, string contactPhone, string contactMessage)
         {
 
             RestClient client = new RestClient();
@@ -82,7 +81,6 @@ namespace henning.Controllers
             request.AddParameter("to", "tosca.ragnini@gmail.com");
             request.AddParameter("subject","Grand Legacy - Contact Request");
             request.AddParameter("text", "FirstName : " + firstName);
-            request.AddParameter("text", "LastName : " + lastName);
             request.AddParameter("text", "FullName : " + fullName);
             request.AddParameter("text", "ContactEmail : " + contactEmail);
             request.AddParameter("text", "ContactPhone : " + contactPhone);
@@ -99,7 +97,6 @@ namespace henning.Controllers
     public class ContactInfo
     {
         public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string FullName { get; set; }
         public string ContactEmail { get; set; }
         public string ContactPhone { get; set; }
