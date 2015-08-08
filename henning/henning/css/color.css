@@ -104,8 +104,7 @@ div.count-number:before,
 	background-color: #ad1f92; /*purple*/
 }
 
-#contactForm > input
-{
+#contactForm > input{
 	background-color: #ffffff; 
 }
 /* BORDER COLOR */

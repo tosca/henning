@@ -103,14 +103,16 @@ ol li{
 ul.list-style{
 	margin: 0 0 18px;
     padding: 0 0 0 60px;
+    
 }
 ul.list-style li{
 	position:relative;
-	line-height:1;
-	list-style: disc;
+	line-height:2;
+	list-style: circle;
 	padding-left:5px;
 	padding-top:5px;
 	padding-bottom:5px;
+    color: #6890df;
 }
 .arrow-style {
     margin: 0 0 22px;
@@ -3603,7 +3605,7 @@ ul.tags li{
     height: 82px;
 }
 .transparent-half-white{
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5) !important;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7) !important;
 }
 .transparent-half-blue{
 	background: none repeat scroll 0 0 rgba(104, 144, 223, 0.5) !important;
