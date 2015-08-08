@@ -50,7 +50,7 @@ namespace henning.Controllers
             var contactEmail = contact.ContactEmail;
             var contactPhone = contact.ContactPhone;
             var contactMessage = contact.ContactMessage;
-           SendEmail(firstName, fullName, contactEmail, contactPhone, contactMessage);
+          SendEmail(firstName, fullName, contactEmail, contactPhone, contactMessage);
             return RedirectToAction("Index");
         }
 
@@ -76,10 +76,10 @@ namespace henning.Controllers
             request.AddParameter("domain",
                                  System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
-            request.AddParameter("from", "Grand Legacy Village inquiry");
+            request.AddParameter("from", "Grand Legacy Village inquiry <mailgun@mailgun.org>");
             //request.AddParameter("to", "bar@example.com");
             request.AddParameter("to", "tosca.ragnini@gmail.com");
-            request.AddParameter("subject","Grand Legacy - Contact Request");
+            request.AddParameter("subject", "Grand Legacy - Contact Request");
             request.AddParameter("text", "FirstName : " + firstName);
             request.AddParameter("text", "FullName : " + fullName);
             request.AddParameter("text", "ContactEmail : " + contactEmail);
