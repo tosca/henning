@@ -67,7 +67,7 @@ namespace henning.Controllers
         }
 
 
-        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage)
+        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage);
         {
 
             RestClient client = new RestClient();
