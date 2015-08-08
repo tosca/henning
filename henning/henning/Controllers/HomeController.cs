@@ -102,8 +102,8 @@ namespace henning.Controllers
     public class ContactInfo
     {
         public string FirstName { get; set; }
-        public string FullName { get; set; }
         public string LastName { get; set; }
+        public string FulllName { get; set; }
         public string ContactEmail { get; set; }
         public string ContactPhone { get; set; }
         public string ContactMessage { get; set; }
