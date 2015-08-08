@@ -33,9 +33,6 @@ namespace henning.Controllers
         }
 
 
-
-
-
         [HttpGet]
         public ActionResult Contact()
         { 
@@ -67,7 +64,7 @@ namespace henning.Controllers
         }
 
 
-        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage);
+        public void SendEmail(string firstName, string lastName, string fullName, string contactEmail, string contactPhone, string contactMessage)
         {
 
             RestClient client = new RestClient();
@@ -103,7 +100,7 @@ namespace henning.Controllers
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string FulllName { get; set; }
+        public string FullName { get; set; }
         public string ContactEmail { get; set; }
         public string ContactPhone { get; set; }
         public string ContactMessage { get; set; }
