@@ -174,6 +174,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
+    <Content Include="img\ccllc\CCLLC-logo.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-05.jpg" />
     <Content Include="img\sections\slider\gl-render-20.jpg" />
@@ -237,8 +240,6 @@
     <Content Include="img\ccllc\project-14.jpg" />
     <Content Include="img\ccllc\project-15.jpg" />
     <Content Include="img\ccllc\sarah-sadigh.png" />
-    <Content Include="img\favicon.ico" />
-    <Content Include="img\favicon.png" />
     <Content Include="img\gl-light-04.png" />
     <Content Include="img\sections\bg\bg-4.jpg" />
     <Content Include="img\sections\bg\full-img1.jpg" />
