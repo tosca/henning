@@ -3802,7 +3802,10 @@ ul.tags li{
 /*************
     tosca edits
 *****************/
-
+.nav-pills li {
+    border:2px solid #6890df;
+    border-radius: 4px;
+}
 .nav-pills li a {
     font-weight:600;
     text-transform:uppercase;
