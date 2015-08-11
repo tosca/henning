@@ -176,6 +176,8 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
+    <Content Include="img\ccllc\HereComes-03.mp3" />
+    <Content Include="img\ccllc\VivaldiConcerto.mp3" />
     <Content Include="img\ccllc\CCLLC-logo.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-05.jpg" />
