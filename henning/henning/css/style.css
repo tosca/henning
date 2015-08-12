@@ -2073,14 +2073,14 @@ tp-transparent img{
 	background:none;
 }
 .navigation-1 .owl-prev{
-	right:20px;
+	right:60px;
 	left:auto;
-	top:-20px;
+	top:-40px;
 }
 .navigation-1 .owl-next{
 	right:0px;	
 	left:auto;
-	top:-20px;
+	top:-40px;
 }
 
 .top-0 .owl-prev{

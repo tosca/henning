@@ -183,6 +183,8 @@
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-05.jpg" />
     <Content Include="img\sections\slider\gl-render-20.jpg" />
+    <Content Include="img\sections\slider\gl-slide-23.jpg" />
+    <Content Include="img\sections\slider\gl-slide-24.jpg" />
     <Content Include="img\sections\slider\LeeCountyPopulationProjections.jpg" />
     <Content Include="thank-you.html" />
     <Content Include="Content\bootstrap.css" />

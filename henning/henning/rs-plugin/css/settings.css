@@ -169,7 +169,13 @@ border-width: 0px;
 border-color: #000;
 border-style: none;
 }
-
+.tp-caption.largepurplebg {
+background-color:#ad1f92;/*purple*/
+padding:0px 20px;
+-webkit-border-radius:0px;
+-moz-border-radius:0px;
+border-radius:0px;
+}
 .tp-caption.finewide_medium_white {
 color: #FFF;
 text-shadow: none;
