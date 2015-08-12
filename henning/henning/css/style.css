@@ -3586,7 +3586,7 @@ ul.tags li{
     overflow-wrap: break-word;
 }
 .transparent-half-white{
-	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7) !important;
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8) !important;
 }
 .transparent-half-blue{
 	background: none repeat scroll 0 0 rgba(104, 144, 223, 0.5) !important;

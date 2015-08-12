@@ -179,9 +179,11 @@
     <Content Include="img\ccllc\HereComes-03.mp3" />
     <Content Include="img\ccllc\VivaldiConcerto.mp3" />
     <Content Include="img\ccllc\CCLLC-logo.jpg" />
+    <Content Include="img\sections\slider\2030-population.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-05.jpg" />
     <Content Include="img\sections\slider\gl-render-20.jpg" />
+    <Content Include="img\sections\slider\LeeCountyPopulationProjections.jpg" />
     <Content Include="thank-you.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -218,7 +220,6 @@
     <Content Include="grand-legacy.html" />
     <Content Include="img\32x32.png" />
     <Content Include="img\72x72.png" />
-    <Content Include="img\ccllc\2030-population.jpg" />
     <Content Include="img\ccllc\chris-henning.jpg" />
     <Content Include="img\ccllc\edward-handy.png" />
     <Content Include="img\ccllc\GrandLegacy-brochure.jpg" />
@@ -248,7 +249,6 @@
     <Content Include="img\sections\bg\gl-site.jpg" />
     <Content Include="img\sections\bg\gl-entrance.png" />
     <Content Include="img\sections\bg\lighthouse.jpg" />
-    <Content Include="img\sections\slider\2030-population.jpg" />
     <Content Include="img\sections\slider\340x440-01.jpg" />
     <Content Include="img\sections\slider\340x440-02.jpg" />
     <Content Include="img\ccllc\chris-henning.png" />
