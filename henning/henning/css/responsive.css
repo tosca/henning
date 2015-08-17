@@ -645,4 +645,12 @@
         font-size:26px;
         line-height: 1.5;
     }
+    .modal-window-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #77a22f;
+    }
 }
