@@ -186,6 +186,11 @@
     <Content Include="img\sections\slider\gl-slide-23.jpg" />
     <Content Include="img\sections\slider\gl-slide-24.jpg" />
     <Content Include="img\sections\slider\LeeCountyPopulationProjections.jpg" />
+    <Content Include="img\sections\slider\rs-slider1-img2.png" />
+    <Content Include="img\sections\slider\rs-slider2-four.png" />
+    <Content Include="img\sections\slider\rs-slider2-one.png" />
+    <Content Include="img\sections\slider\rs-slider2-three.png" />
+    <Content Include="img\sections\slider\rs-slider2-two.png" />
     <Content Include="thank-you.html" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -315,11 +320,6 @@
     <Content Include="img\sections\slider\Regional-Map.jpg" />
     <Content Include="img\sections\slider\rs-1.jpg" />
     <Content Include="img\sections\slider\rs-slider1-bg.jpg" />
-    <Content Include="img\sections\slider\rs-slider1-img2.png" />
-    <Content Include="img\sections\slider\rs-slider2-four.png" />
-    <Content Include="img\sections\slider\rs-slider2-one.png" />
-    <Content Include="img\sections\slider\rs-slider2-three.png" />
-    <Content Include="img\sections\slider\rs-slider2-two.png" />
     <Content Include="img\sections\slider\slider1-bg.jpg" />
     <Content Include="img\up.png" />
     <Content Include="js\bootstrap-datetimepicker.min.js" />

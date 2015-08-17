@@ -8,9 +8,6 @@ li{
 }
 /* Ends No Need Style */
 /* Custom Navigation */
-.navbar-nav > li a {
-    font-size: 20px;
-}
 .navbar-nav{
 	float: right;
 }
@@ -163,7 +160,7 @@ li.mega-menu{
 	background-color: #fff;
 }
 .navbar.navbar-bg-light .navbar-nav > li > a{
-	color: #144371; /*suit blue*/
+	color: #222;
 }
 /* Set Navbar Background-color dark */
 .navbar.navbar-bg-dark{
@@ -177,13 +174,13 @@ li.mega-menu{
 	background-color: transparent
 }
 .navbar-transparent .navbar-nav > li > a{
-	color: #144371; /*suit blue*/
+	color: #fff;
 }
 .navbar-semi-transparent{
 	background-color: rgba(255, 255, 255, 0.8)
 }
 .navbar-transparent .navbar-nav > li > a{
-	color: #144371; /*suit blue*/
+	color: #222;
 }
 .navbar-transparent{
 	border-color: transparent;
@@ -200,7 +197,7 @@ li.mega-menu{
 	padding-bottom: 10px;
 }
 .top-contact{
-	float: right;
+	float: left;
 	text-align: center;
 }
 .top-social-icon{
@@ -475,7 +472,7 @@ li.search-dropdown a {
 	position: relative;
 }
 .navbar-nav > li > a{
-	line-height: 40px;
+	line-height: 30px;
 }
 /* Logo Styles */
 .navbar-brand{
@@ -489,15 +486,7 @@ li.search-dropdown a {
 	vertical-align: middle;
 }
 .navbar-brand > img{
-	width: 180px;
-    height: auto;
-    margin-left:auto;
-    margin-right:auto;
-}
-.nav-brand .name-logo{
-    line-height: normal;
-    font-family: 'Gentium Book Basic' serif;
-    color: #144371;
+	width: 155px;
 }
 /* Shop Header */
 .shop-header-block{
