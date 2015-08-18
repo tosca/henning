@@ -76,7 +76,6 @@ namespace henning.Controllers
                                  System.Configuration.ConfigurationManager.AppSettings["MAILGUN_DOMAIN"], ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
             request.AddParameter("from", "Grand Legacy Village inquiry <mailgun@mailgun.org>");
-            //request.AddParameter("to", "bar@example.com");
             request.AddParameter("to", "tosca.ragnini@gmail.com");
             request.AddParameter("subject", "Grand Legacy - Contact Request");
             request.AddParameter("text", "FullName : " + fullName);

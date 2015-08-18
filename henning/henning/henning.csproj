@@ -176,6 +176,7 @@
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="favicon.png" />
+    <Content Include="img\apple-touch-icon-72x72-precomposed.png" />
     <Content Include="img\ccllc\GrandLegacy-brochure.jpg" />
     <Content Include="img\ccllc\HereComes-03.mp3" />
     <Content Include="img\ccllc\CCLLC-logo.jpg" />
