@@ -181,9 +181,12 @@
     <Content Include="img\ccllc\HereComes-03.mp3" />
     <Content Include="img\ccllc\CCLLC-logo.jpg" />
     <Content Include="img\sections\slider\2030-population.jpg" />
+    <Content Include="img\sections\slider\plot-02.jpg" />
+    <Content Include="img\sections\slider\PlotPlan-02.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-05.jpg" />
     <Content Include="img\sections\slider\gl-render-20.jpg" />
+    <Content Include="img\sections\slider\gl-site-plan-04.jpg" />
     <Content Include="img\sections\slider\gl-slide-23.jpg" />
     <Content Include="img\sections\slider\gl-slide-24.jpg" />
     <Content Include="img\sections\slider\LeeCountyPopulationProjections.jpg" />
