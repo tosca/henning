@@ -15,6 +15,9 @@ color: #ad1f92/*purple*/
 .suit-blue {
     color:#144371;
 }
+.suit-blue-bg {
+    background-color:#144371;
+}
 .btn-link,.btn-link:hover,
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
 .navbar.navbar-bg-light .navbar-nav > li > a:hover, .navbar.navbar-bg-light .navbar-nav > li > a:focus, .navbar.navbar-bg-light .navbar-nav > li > a.active,
@@ -23,6 +26,7 @@ color: #ad1f92/*purple*/
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .dropdown-menu > li > a.active,
 .text-color,
 .item-box a:hover i,
+.item-box .title,
 .inverse i,
 .item-box.icons-color i,
 .process-content:hover .title,
