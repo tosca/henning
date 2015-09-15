@@ -23,10 +23,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 60px;/*was 48px*/
   font-family: 'Gentium Book Basic', serif;
   font-weight: 400;
-
+  letter-spacing: 5px;
 }
 h2 {
   font-size: 40px;
@@ -1320,6 +1320,9 @@ i.fa-1x{
 .white-bg{
 	background: #ffffff;
 }
+.dk-grey-bg {
+    background: #e1e1e1;
+}
 .blue-bg{
 	background: #6890df;
 }
@@ -1602,24 +1605,24 @@ i,
 /************************************************************
 							SLIDER SECTION
 *************************************************************/
-/*Revolution Slider 
+Revolution Slider 
 .tp-caption {
   white-space: inherit;
   color: #ffffff; 
    
 }
 .tp-caption.bold{
-  font-size: 35px !important;
+  font-size: 60px !important;
   font-weight: 400;
   font-family:'Gentium Book Basic', serif;
   text-transform:uppercase;
   margin: 0;
   line-height: 75;
-  line-height: 60;
+  line-height: 70;
 }
 .tp-caption.description {
-   font-size: 25px !important;    
-	line-height: 38px !important;
+   font-size: 32px !important;    
+	line-height: 40px !important;
     letter-spacing: 5px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -1709,7 +1712,7 @@ p.tp-caption.button-block a{
 tp-transparent img{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
-/*}	
+}	
 .rs-slider ul {
   list-style: none;
   margin: 0;
@@ -1867,7 +1870,7 @@ tp-transparent img{
 .rs-slider-full  .tp-rightarrow{
 	right:-10px!important;
 }
-*/
+
 /* Bootstrap Carousel */
 .carousel-control {
     top: 0;
@@ -2487,6 +2490,19 @@ tp-transparent img{
 	margin-bottom:15px;
 	font-style:italic;
 	font-size:12px;
+}
+/******************************************************************************
+  marina
+*******************************************************************************/
+.marina-circle{
+	border-radius:100%;
+	-moz-border-radius:100%;
+	-webkit-border-radius: 100%;
+	border:12px solid rgba(0,0,0,.2);
+	width: 250px;
+    height: 250px;
+	text-align:center;
+	margin:20px auto;
 }
 /******************************************************************************
   Work Process
@@ -3118,6 +3134,12 @@ ul.tags li{
 .transparent-half-black-2 {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2) !important;
 }
+.transparent-half-black-3 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) !important;
+}
+.transparent-half-black-4 {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4) !important;
+}
 .form-box {
     background: #f2f2f2;
     border-radius: 5px;
@@ -3326,6 +3348,7 @@ ul.tags li{
 #services h4 {
     font-family: 'Gentium Book Basic', serif;
 }
+
 
 
 /******************************************************************************
