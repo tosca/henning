@@ -187,6 +187,8 @@
     <Content Include="img\sections\marina-03.jpg" />
     <Content Include="img\sections\marina-04.jpg" />
     <Content Include="img\sections\slider\2030-population.jpg" />
+    <Content Include="img\sections\slider\gl-marine-01.jpg" />
+    <Content Include="img\sections\slider\gl-marine-02.jpg" />
     <Content Include="img\sections\slider\plot-02.jpg" />
     <Content Include="img\sections\slider\PlotPlan-02.jpg" />
     <Content Include="img\sections\slider\gl-floor-plan-04.jpg" />
