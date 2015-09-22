@@ -4,13 +4,13 @@
     color: #ad1f92}/*purple*/
 #intro h4,
 .section-title h2{
-    color:#6890df;/*blue*/
+    color:#80aaff;/*blue was 6890df*/
 }
 .purple{	
 color: #ad1f92;  /*gl-purple*/
 }
 .blue{
-    color:#6890df;/*gl-blue*/
+    color:#80aaff;/*gl-blue*/
 }
 .suit-blue {
     color:#144371; /*CCLLC blue*/
@@ -50,7 +50,7 @@ header .nav .open > a.highlighteds,
 .tab-pane h5,
 #contact h4
 {
-   color: #6890df; /*blue*/  
+   color: #80aaff; /*blue*/  
 }
 #video-controls{
   color: #c0c5cd;
@@ -122,14 +122,14 @@ div.count-number:before,
 .blog.timeliner  >li:hover .timeline-panel,
 .form-control:focus
 {
-	border-color: #6890df; /*blue*/
+	border-color: #80aaff; /*blue*/
 }
 .bottom-arrow:before{
-	border-top-color: #6890df; /*blue*/
+	border-top-color: #80aaff; /*blue*/
 }
 .rightGrip, 
 .leftGrip{
-	border-bottom: 10px solid #6890df !important;
+	border-bottom: 10px solid #80aaff !important;
 }
 
 /********************************************
@@ -147,13 +147,13 @@ div.count-number:before,
 
 /* Content Select In Browser */
 ::-moz-selection {
-    background: #6890df;
+    background: #80aaff;
     color: #000000;
     text-shadow: none;
 }
 ::selection {
    
-    background:  #6890df;/*blue*/
+    background:  #80aaff;/*blue*/
     color:#ad1f92;/*purple*/
     text-shadow: none;
 }

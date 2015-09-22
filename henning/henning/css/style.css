@@ -86,7 +86,7 @@ hr.white{
 }
 hr.color{
   border: 0;
-  border-top: 2px solid #6890df; /*blue*/
+  border-top: 2px solid #80aaff; /*blue*/
   border-bottom: 0 none;
 }
 .highlight{
@@ -111,7 +111,7 @@ ul.list-style li{
 	list-style: circle;
 	padding-top:5px;
 	padding-bottom:5px;
-    color: #6890df;
+    color: #80aaff;
 }
 .arrow-style {
     margin: 0 0 22px;
@@ -306,7 +306,7 @@ color:#ffffff;
 	color:#fff!important;
 }
 .btn-blue{
-	background:#6890df;
+	background:#80aaff;
 	color:#fff!important;
 }
 .btn-black:hover{
@@ -1325,7 +1325,7 @@ i.fa-1x{
      background: #dddddf;
 }
 .blue-bg{
-	background: #6890df;
+	background: #80aaff;
 }
 .border-tb{	
     border-bottom: 1px solid #f2f2f2;
