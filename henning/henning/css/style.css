@@ -1612,16 +1612,15 @@ Revolution Slider
    
 }
 .tp-caption.bold{
-  font-size: 60px !important;
+  font-size: 65px !important;
   font-weight: 400;
   font-family:'Gentium Book Basic', serif;
   text-transform:uppercase;
   margin: 0;
   line-height: 75;
-  line-height: 70;
 }
 .tp-caption.description {
-   font-size: 20px !important;    
+   font-size: 15px !important;    
 	line-height: 30px !important;
     letter-spacing: 5px;
     font-family: "Open Sans", sans-serif;
