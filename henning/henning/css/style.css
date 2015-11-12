@@ -1874,7 +1874,7 @@ tp-transparent img{
     width: 10%;
 }
 .carousel-control .fa, .carousel-control .icon-prev, .carousel-control .icon-next {
-    font-size: 30px;
+    font-size: 60px;
     height: 30px;
     margin-top: -15px;
     width: 30px;
@@ -2030,11 +2030,11 @@ tp-transparent img{
 .owl-prev i,
 .owl-next i{
 	color: #000000;
-    font-size: 25px;
+    font-size: 40px;
 }
 .owl-prev .fa, .owl-next .fa {
     position: relative;
-    width: 40px;
+    width: 150px;
 	height:40px;
 	line-height:40px;
 	border-radius:50%;
