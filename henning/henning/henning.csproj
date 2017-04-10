@@ -240,10 +240,6 @@
     <Content Include="Content\Site.css" />
     <Content Include="grand-legacy.html" />
     <Content Include="img\ccllc\chris-henning.jpg" />
-    <Content Include="img\ccllc\edward-handy.png" />
-    <Content Include="img\ccllc\prabhat-kaikini.png" />
-    <Content Include="img\ccllc\gloria-reilly.png" />
-    <Content Include="img\ccllc\karolina-figlesthaler.png" />
     <Content Include="img\ccllc\liri-basha.png" />
     <Content Include="img\ccllc\project-01.jpg" />
     <Content Include="img\ccllc\project-02.jpg" />
