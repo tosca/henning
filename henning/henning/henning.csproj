@@ -430,6 +430,7 @@
     <Content Include="fonts\revicons.woff" />
     <Content Include="img\ccllc\Grand-Legacy-Villages-Brochure-May-4-2015.pdf" />
     <Content Include="img\ccllc\GrandLegacyVIllage-4-13-17.pdf" />
+    <Content Include="img\ccllc\GrandLegacyVillagePlannedLuxury55FiveStarResort4-1.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
